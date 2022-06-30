@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    background-color: rgb(0, 255, 123);
+    min-height: 100vh;
+    max-width: 1200px;
+    border:10px solid red;
+   position: relative;
+   left:150px;
+}
+.content{
+    max-width:900px;
+    margin:0 auto;
+}
+.top-section{
+    
+    display: flex;
+    
+    align-items:flex-end;
+    
+}
+.top-section h1{
+    font-size:35px;
+    font-weight:bold;
+    color:black;
+}
+.image-container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-container,img{
+    width:300px;
+    height:320px;
+}
+.about-section p{
+    font-size:25px;
+    padding:20px;
+
+}
+.brief-timeline {
+    text-align: center;
+   
+  }
+.lora li{
+    list-style: none;
+    font-size: 25px;
+
+}
+h4{
+    font-size: 20px;
+    
+}
+h2{
+    text-align: center;
+}
